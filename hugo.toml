@@ -2,5 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
+[[cache.images]]
+dir = ':cacheDir/images'
+
 [[module.imports]]
 path = 'github.com/adityatelange/hugo-PaperMod'
